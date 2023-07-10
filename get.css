@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Get started and One Stop-------------------------------------------------*/
 .content-box-get-started {
   display: flex;
@@ -95,4 +96,103 @@
 .image-container-girl {
     justify-content: center;
 }
+=======
+/* Get started and One Stop-------------------------------------------------*/
+.content-box-get-started {
+  display: flex;
+  padding: 16px 5px;
+  height: auto;
+  width: 100%;
+}
+
+.text-container-gets {
+  padding: 65px;
+  margin-left:35px;
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-container-gets h2 {
+    font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  flex: 1 1;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.text-container-gets p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.image-container-gets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.image-container-gets img {
+  max-height: 500px;
+  max-width: 500px;
+  width: auto;
+  height: auto;
+}
+.image-container-girl{
+  max-height: 300px;
+    display: flex;
+    flex: 1 1;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.image-container-girl img{
+    display: block;
+    object-fit: contain;
+}
+.get-started-button {
+     font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+  border-radius: 8px;
+  background-color: #ee3425;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  transition: width 0.3s ease-in-out;
+}
+
+@media (max-width: 600px) {
+  .get-started-button {
+    width: 100%;
+  }
+}
+
+/* Media query for mobile version */
+@media screen and (max-width: 600px) {
+  .content-box {
+    height: auto;
+  }
+  .content-box-get-started {
+   flex-direction: column-reverse;
+  }
+  .text-container-gets {
+  padding: 30px;
+  margin-left:5px;
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image-container-girl {
+    justify-content: center;
+}
+>>>>>>> 038e99204cd73b5a45dfdc3c11f6f441e93885f4
 }

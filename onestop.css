@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .content-box-one-stop {
   display: flex;
   padding: 16px 5px;
@@ -8,4 +9,16 @@
   .content-box-one-stop {
    flex-direction: column-reverse;
   }
+=======
+.content-box-one-stop {
+  display: flex;
+  padding: 16px 5px;
+  height: auto;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .content-box-one-stop {
+   flex-direction: column-reverse;
+  }
+>>>>>>> 038e99204cd73b5a45dfdc3c11f6f441e93885f4
 }
