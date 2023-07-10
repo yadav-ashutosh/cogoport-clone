@@ -1,0 +1,39 @@
+/*Navbar section -----------------------------*/
+
+.discount {
+    background-color: #ee3425;
+    width: 100%;
+    height:36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+.small_logo {
+    height: 20px;
+    margin-right: 10px;
+}
+  
+.discount-text {
+    color: white;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.discount-text a{
+    color: yellow;
+    text-decoration: none;
+}
+
+.cross{
+    color: yellow;
+    position: absolute;
+    
+    right: 50px;
+    height: 20px;
+
+}

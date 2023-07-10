@@ -1,0 +1,11 @@
+.content-box-one-stop {
+  display: flex;
+  padding: 16px 5px;
+  height: auto;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .content-box-one-stop {
+   flex-direction: column-reverse;
+  }
+}
